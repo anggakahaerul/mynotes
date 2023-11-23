@@ -91,6 +91,6 @@ ONE WAY DATA BINDING
 when the user want to bind the value from particular html component {{data}}
 
 TWO WAY DATA BINDING
-when the user want to bind the value from partucular HTML input, so the value will be extracted when the input is changed.
+when the user want to bind the value from particular HTML input field, so the value will be extracted when the input is changed.
 
 
