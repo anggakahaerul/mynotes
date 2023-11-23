@@ -144,7 +144,8 @@ Happy coding!
 FUNGSI DARI
 Component
 Service
-Modul
+Module
+Models
 
 Jannick & TutorialsEU
 
