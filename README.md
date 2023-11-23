@@ -106,3 +106,47 @@ export class AppointmentListComponent implements OnInit {
 }
 
 the user should implements it from OnInit import.
+
+The Most commonly used commands in angular
+to create new project
+ng new projectName
+
+to run applications
+ng serve
+
+ng serve --open
+
+ng serve -o
+Same as ng serve, but also opens your default web browser to the application.
+
+ng generate component componentName
+or
+ng g c componentName
+
+Generates a new component with the specified name.
+
+
+ng generate service serviceName
+or
+ng g s serviceName
+
+Generates a new service with the specified name.
+ng build
+
+Builds your application for production, creating a dist/ folder with the output.
+ng update
+
+Checks your application for outdated dependencies, and can also update them.
+Remember, these commands should be run in a terminal or command prompt from within your Angular project's root directory.
+I hope you find this cheat sheet helpful as you navigate your Angular journey.
+Happy coding!
+
+FUNGSI DARI
+Component
+Service
+Modul
+
+Jannick & TutorialsEU
+
+
+
