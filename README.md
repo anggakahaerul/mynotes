@@ -93,4 +93,16 @@ when the user want to bind the value from particular html component {{data}}
 TWO WAY DATA BINDING
 when the user want to bind the value from particular HTML input field, so the value will be extracted when the input is changed.
 
+Lifecycle Hooks
+ngOnInit()
+to load any data from local storage.
 
+export class AppointmentListComponent implements OnInit {
+  ngOnInit(): void {
+    let savedAppointments = localStorage.getItem("appointments"); 
+    this.appointments = savedAppointments ? JSON.parse(savedAppointments) : [];
+    // if have value lets load it but if empty just use empty array
+  }
+}
+
+the user should implements it from OnInit import.
