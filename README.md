@@ -146,7 +146,7 @@ Component
 Service
 Module
 Models
-Routing
+Routing : to route or direct single page to another component
 
 Jannick & TutorialsEU
 
