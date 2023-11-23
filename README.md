@@ -28,3 +28,34 @@ to show it in our template
 
 
 GENERATE OUR FIRST COMPONENT.
+
+In our terminal we can run
+new split terminal. left for server, right for personal terminal
+,command is
+example:
+ng g component appointment-list
+
+one component list can be placed in another component for example 
+
+we have app component html. but if we want to insert appointment-list component we just have to import the component like
+
+<app-appointment-list></app-appointment-list>
+
+to the component html.
+
+INTRODUCTION TO TYPE SCRIPT
+
+if we have learned c# its an easy way to understand typescript cause its really close.
+
+Typescript syntax
+
+app.component.ts
+
+app.component file name
+.ts ext name
+
+class AppComponent {//here we can save our code or etc}
+
+if we want to be able to access this class from the other class we need to add "export"
+
+
