@@ -146,6 +146,7 @@ Component
 Service
 Module
 Models
+Routing
 
 Jannick & TutorialsEU
 
