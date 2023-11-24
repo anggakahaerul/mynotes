@@ -142,13 +142,12 @@ I hope you find this cheat sheet helpful as you navigate your Angular journey.
 Happy coding!
 
 FUNGSI DARI
-Component
-Service
-Module
-Models
+Component :
+Service : to handle the data
+Module :
+Models :
 Routing : to route or direct single page to another component
 
-Jannick & TutorialsEU
 
 
 
