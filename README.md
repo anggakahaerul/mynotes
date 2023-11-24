@@ -149,5 +149,20 @@ Models :
 Routing : to route or direct single page to another component
 
 
+ng-template can make a default template where (ngIf) array is empty. 
+for example:
+<ul *ngIf="reservations.length; else noReservation">
+    <li *ngFor="let reservation of reservations">
+    Guest : {{reservation.guestName}}<br>
+    Email : {{reservation.guestEmail}}<br>
+    Room No : {{reservation.roomNumber}}<br>
+    Check-in : {{reservation.checkInDate}}<br>
+    Check-out : {{reservation.checkOutDate}}<br>
+    </li>
+</ul>
 
+<ng-template  #noReservation>
+    <p>No Reservation Available</p>
+
+</ng-template>
 
