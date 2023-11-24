@@ -142,11 +142,11 @@ I hope you find this cheat sheet helpful as you navigate your Angular journey.
 Happy coding!
 
 FUNGSI DARI
-Component :
-Service : to handle the data
-Module :
-Models :
-Routing : to route or direct single page to another component
+Component : is page consista of customized block.
+Service : to handle the data.
+Module : module serve every page component where users can import and export it.
+Models : is a data access object where user can insert which field should be used to store the data.
+Routing : to route or direct single page to another component.
 
 
 ng-template can make a default template where (ngIf) array is empty. 
